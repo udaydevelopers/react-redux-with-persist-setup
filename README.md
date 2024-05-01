@@ -23,8 +23,9 @@ Use the useDispatch hook to dispatch actions.
 To persist your Redux state across page refreshes, you can use Redux Persist. Follow these steps to set it up:
 
 Install Redux Persist:
-
+```bash
 npm install redux-persist
+
 Create a Redux Persist configuration:
 Define a configuration object that specifies which parts of your state to persist and where to persist them (e.g., localStorage or sessionStorage).
 Update your root reducer:
